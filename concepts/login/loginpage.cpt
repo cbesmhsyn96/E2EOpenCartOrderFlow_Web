@@ -1,0 +1,17 @@
+# Verify that the login page is displayed
+* Validate "url" contains "text"
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is displayed
+* Check if element "type" "locator" is displayed
+
+# Wait for login page elements to load
+* Wait until element "type" "locator" is present
+* Wait until element "type" "locator" is present
+* Wait until element "type" "locator" is present
+* Wait until element "type" "locator" is present
+* Wait until element "type" "locator" is visible
+* Wait until element "type" "locator" is clickable

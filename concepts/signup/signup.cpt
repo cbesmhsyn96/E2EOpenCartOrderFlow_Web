@@ -1,0 +1,24 @@
+# Verify that the signup page is displayed
+* Validate "url" contains "text"
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is present
+* Check if element "type" "locator" is displayed
+* Check if element "type" "locator" is displayed
+
+# Wait for signup page elements to load
+* Wait for home page navbar elements to visible
+* Wait until element "css" "div[class='signup-form']>h2" is visible
+* Wait until element "css" "form[action='/signup']>input[placeholder='Name']" is visible
+* Wait until element "css" "form[action='/signup']>input[placeholder='Email Address']" is visible
+* Wait until element "css" "form[action='/signup']>button" is clickable
+* Scroll to element "css" "form[action='/signup']>button"
+//Handle stale element exception
+
+# Click the Submit button
+* Click on element "css" "form[action='/signup']>button"
+
+# Click on the Sign Up button on the Home page
+* Click on element "css" "li>a[href='/login']"

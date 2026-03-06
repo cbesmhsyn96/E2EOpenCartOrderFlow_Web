@@ -1,0 +1,9 @@
+2026-03-03 23:32:22 [pool-2-thread-1] INFO  StepImplementation - https://automationexercise.com/ urlli web sitesine gidildi.
+2026-03-03 23:32:23 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/login'] was present.
+2026-03-03 23:32:23 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was present.
+2026-03-03 23:32:23 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was present.
+2026-03-03 23:32:23 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was present.
+2026-03-03 23:32:23 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was present.
+2026-03-03 23:32:24 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was present.
+2026-03-03 23:32:24 [pool-2-thread-1] INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was present.
+2026-03-03 23:32:24 [pool-2-thread-1] INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was present.

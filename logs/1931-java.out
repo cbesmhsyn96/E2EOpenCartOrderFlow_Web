@@ -1,0 +1,53 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1014milliseconds to load and scan. This should be less than \u0027runner_connection_timeout\u0027 config value."}
+{"logLevel":"debug","message":"run \u0027gauge config runner_connection_timeout\u0027 and verify that it is \u003c 1014"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62352"}
+{"logLevel":"info","message":"Listening on port:62352"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.doubleClickElement\u0027 and \u0027org.example.StepImplementation.doubleClickElement\u0027"}
+{"logLevel":"debug","message":"Found Double click on element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.validateTextInUrl\u0027 and \u0027org.example.StepImplementation.validateTextInUrl\u0027"}
+{"logLevel":"debug","message":"Found Validate {} contains {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.clickElementWithJavaSc\u0027 and \u0027org.example.StepImplementation.clickElementWithJavaSc\u0027"}
+{"logLevel":"debug","message":"Found Click on element {} {} using JavaScript in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.isElementPresent\u0027 and \u0027org.example.StepImplementation.isElementPresent\u0027"}
+{"logLevel":"debug","message":"Found Check if element {} {} is present in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilPresence\u0027 and \u0027org.example.StepImplementation.waitElementUntilPresence\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is present in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.clickElementWithLocatorType\u0027 and \u0027org.example.StepImplementation.clickElementWithLocatorType\u0027"}
+{"logLevel":"debug","message":"Found Click on element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.scrollToElement\u0027 and \u0027org.example.StepImplementation.scrollToElement\u0027"}
+{"logLevel":"debug","message":"Found Scroll to element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilVisible\u0027 and \u0027org.example.StepImplementation.waitElementUntilVisible\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is visible in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.typeTextElement\u0027 and \u0027org.example.StepImplementation.typeTextElement\u0027"}
+{"logLevel":"debug","message":"Found Type {} into element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilClickable\u0027 and \u0027org.example.StepImplementation.waitElementUntilClickable\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is clickable in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.goToUrl\u0027 and \u0027org.example.StepImplementation.goToUrl\u0027"}
+{"logLevel":"debug","message":"Found Goto website with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.isElementDisplayed\u0027 and \u0027org.example.StepImplementation.isElementDisplayed\u0027"}
+{"logLevel":"debug","message":"Found Check if element {} {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on element {} {} : public void clickElementWithLocatorType(String type, String locator)"}
+{"logLevel":"debug","message":"\tClick on element {} {} using JavaScript : public void clickElementWithJavaSc(String type, String locator)"}
+{"logLevel":"debug","message":"\tValidate {} contains {} : public void validateTextInUrl(String url, String text)"}
+{"logLevel":"debug","message":"\tScroll to element {} {} : public void scrollToElement(String type, String locator)"}
+{"logLevel":"debug","message":"\tGoto website with {} : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is displayed : public void isElementDisplayed(String type, String locator)"}
+{"logLevel":"debug","message":"\tDouble click on element {} {} : public void doubleClickElement(String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is clickable : public void waitElementUntilClickable(String type, String locator)"}
+{"logLevel":"debug","message":"\tType {} into element {} {} : public void typeTextElement(String text, String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is visible : public void waitElementUntilVisible(String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is present : public void waitElementUntilPresence(String type, String locator)"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is present : public void isElementPresent(String type, String locator)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

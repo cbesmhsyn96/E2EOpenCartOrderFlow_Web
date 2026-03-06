@@ -1,0 +1,8 @@
+[
+	"/opt/homebrew/bin/gauge",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/Users/huseyinakcan/Desktop/TestAutomation/E2EOpenCartOrderFlow/specs/e2e/e2e.spec:29"
+]

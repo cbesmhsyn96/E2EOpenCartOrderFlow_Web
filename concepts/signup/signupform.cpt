@@ -1,0 +1,35 @@
+
+# Wait for signup from page elements to load
+* Wait until element "id" "password" is visible
+
+# Verify name and email on Sign Up Form page
+* Verify that stored user information is displayed correctly on Sign Up page
+
+# Fill required fields on Sign Up Form page
+* Scroll to element "id" "last_name"
+* Scroll to element "css" "form.searchform"
+* Fill required account information on Sign Up page
+
+# Click Create Account button on Sign Up page
+* Scroll to element "css" "input[value='create_account']+button"
+* Click on element "css" "input[value='create_account']+button"
+
+# Wait for Account Created page elements to load
+* Scroll to element "css" "h2[class='title text-center']"
+* Scroll to element "css" "section#form p:nth-of-type(1)"
+* Verify that element located by "css" "h2[class='title text-center']>b" contains text "ACCOUNT CREATED!"
+* Verify that element located by "css" "section#form p:nth-of-type(1)" contains text "Congratulations! Your new account"
+
+# Click Continue button on Account Created page
+* Scroll to element "css" "div.pull-right>a"
+* Click element if it exists by "css" with locator "#dismiss-button"
+* Click on element "css" "div.pull-right>a"
+* Click element if it exists by "css" with locator "#dismiss-button"
+* If current URL contains "google_vignette" navigate to "https://automationexercise.com/"
+
+# Verify logout delete account and logged user name on home page
+* Click element if it exists by "css" with locator "#dismiss-button"
+* Scroll to element "css" "li>a[href='/logout']"
+* Scroll to element "css" "li>a[href='/delete_account']"
+* Scroll to element "css" "ul[class='nav navbar-nav']>li:nth-child(10) b"
+* Verify registered user name on Home page

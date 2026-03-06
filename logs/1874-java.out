@@ -1,0 +1,103 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Unable to load implementation for java.util.ServiceLoader[org.apache.logging.log4j.spi.Provider]
+ java.util.ServiceConfigurationError: org.apache.logging.log4j.spi.Provider: Provider org.apache.logging.log4j.core.impl.Log4jProvider could not be instantiated
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:582)
+	at java.base/java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:809)
+	at java.base/java.util.ServiceLoader$ProviderImpl.get(ServiceLoader.java:725)
+	at java.base/java.util.ServiceLoader$3.next(ServiceLoader.java:1397)
+	at org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator.tryAdvance(ServiceLoaderUtil.java:73)
+	at java.base/java.util.Spliterator.forEachRemaining(Spliterator.java:332)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:702)
+	at org.apache.logging.log4j.spi.LoggingSystem.loadDefaultProviders(LoggingSystem.java:201)
+	at org.apache.logging.log4j.spi.LoggingSystem.findProvider(LoggingSystem.java:118)
+	at org.apache.logging.log4j.util.LazyUtil$ReleaseAcquireLazy.get(LazyUtil.java:163)
+	at org.apache.logging.log4j.spi.LoggingSystem.getProvider(LoggingSystem.java:113)
+	at org.apache.logging.log4j.spi.LoggingSystem.lambda$new$0(LoggingSystem.java:82)
+	at org.apache.logging.log4j.util.Lazy.lambda$map$0(Lazy.java:39)
+	at org.apache.logging.log4j.util.LazyUtil$SafeLazy.get(LazyUtil.java:109)
+	at org.apache.logging.log4j.spi.LoggingSystem.getLoggerContextFactory(LoggingSystem.java:169)
+	at org.apache.logging.log4j.LogManager.getFactory(LogManager.java:390)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:105)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:621)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.Log4J2LoggerFactory.newInstance(Log4J2LoggerFactory.java:33)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.useLog4J2LoggerFactory(InternalLoggerFactory.java:76)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:47)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getDefaultFactory(InternalLoggerFactory.java:111)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getInstance(InternalLoggerFactory.java:134)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getInstance(InternalLoggerFactory.java:127)
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:85)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:225)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:212)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.cached(AsciiString.java:1395)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<clinit>(AsciiString.java:48)
+	at io.grpc.netty.shaded.io.grpc.netty.Utils.<clinit>(Utils.java:81)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder.<clinit>(NettyServerBuilder.java:83)
+	at com.thoughtworks.gauge.command.StartCommand.execute(StartCommand.java:45)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:23)
+Caused by: java.lang.NoSuchMethodError: 'java.util.stream.Stream org.apache.logging.log4j.util.ServiceLoaderUtil.safeStream(java.lang.Class, java.util.ServiceLoader, org.apache.logging.log4j.Logger)'
+	at org.apache.logging.log4j.plugins.di.DI$FactoryBuilder.lambda$new$1(DI.java:79)
+	at org.apache.logging.log4j.plugins.di.DI$FactoryBuilder.build(DI.java:179)
+	at org.apache.logging.log4j.plugins.di.DI.createInitializedFactory(DI.java:50)
+	at org.apache.logging.log4j.core.impl.Log4jProvider.<init>(Log4jProvider.java:90)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:785)
+	... 35 more
+ERROR StatusLogger Log4j could not find a logging implementation. Please add log4j-core dependencies to classpath or module path. Using SimpleLogger to log to the console.
+{"logLevel":"debug","message":"gauge-java took 639milliseconds to load and scan. This should be less than \u0027runner_connection_timeout\u0027 config value."}
+{"logLevel":"debug","message":"run \u0027gauge config runner_connection_timeout\u0027 and verify that it is \u003c 639"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62331"}
+{"logLevel":"info","message":"Listening on port:62331"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.doubleClickElement\u0027 and \u0027org.example.StepImplementation.doubleClickElement\u0027"}
+{"logLevel":"debug","message":"Found Double click on element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.validateTextInUrl\u0027 and \u0027org.example.StepImplementation.validateTextInUrl\u0027"}
+{"logLevel":"debug","message":"Found Validate {} contains {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.clickElementWithJavaSc\u0027 and \u0027org.example.StepImplementation.clickElementWithJavaSc\u0027"}
+{"logLevel":"debug","message":"Found Click on element {} {} using JavaScript in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.isElementPresent\u0027 and \u0027org.example.StepImplementation.isElementPresent\u0027"}
+{"logLevel":"debug","message":"Found Check if element {} {} is present in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilPresence\u0027 and \u0027org.example.StepImplementation.waitElementUntilPresence\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is present in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.clickElementWithLocatorType\u0027 and \u0027org.example.StepImplementation.clickElementWithLocatorType\u0027"}
+{"logLevel":"debug","message":"Found Click on element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.scrollToElement\u0027 and \u0027org.example.StepImplementation.scrollToElement\u0027"}
+{"logLevel":"debug","message":"Found Scroll to element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilVisible\u0027 and \u0027org.example.StepImplementation.waitElementUntilVisible\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is visible in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.typeTextElement\u0027 and \u0027org.example.StepImplementation.typeTextElement\u0027"}
+{"logLevel":"debug","message":"Found Type {} into element {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.waitElementUntilClickable\u0027 and \u0027org.example.StepImplementation.waitElementUntilClickable\u0027"}
+{"logLevel":"debug","message":"Found Wait until element {} {} is clickable in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.goToUrl\u0027 and \u0027org.example.StepImplementation.goToUrl\u0027"}
+{"logLevel":"debug","message":"Found Goto website with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027org.example.StepImplementation.isElementDisplayed\u0027 and \u0027org.example.StepImplementation.isElementDisplayed\u0027"}
+{"logLevel":"debug","message":"Found Check if element {} {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on element {} {} : public void clickElementWithLocatorType(String type, String locator)"}
+{"logLevel":"debug","message":"\tClick on element {} {} using JavaScript : public void clickElementWithJavaSc(String type, String locator)"}
+{"logLevel":"debug","message":"\tValidate {} contains {} : public void validateTextInUrl(String url, String text)"}
+{"logLevel":"debug","message":"\tScroll to element {} {} : public void scrollToElement(String type, String locator)"}
+{"logLevel":"debug","message":"\tGoto website with {} : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is displayed : public void isElementDisplayed(String type, String locator)"}
+{"logLevel":"debug","message":"\tDouble click on element {} {} : public void doubleClickElement(String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is clickable : public void waitElementUntilClickable(String type, String locator)"}
+{"logLevel":"debug","message":"\tType {} into element {} {} : public void typeTextElement(String text, String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is visible : public void waitElementUntilVisible(String type, String locator)"}
+{"logLevel":"debug","message":"\tWait until element {} {} is present : public void waitElementUntilPresence(String type, String locator)"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is present : public void isElementPresent(String type, String locator)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

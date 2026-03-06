@@ -1,0 +1,10 @@
+Created by huseyinakcan on 6.03.2026
+
+This is a concept file with following syntax for each concept.
+# Wait for product cart page elements to visible
+* Wait until element "xpath" "//a[text()='Proceed To Checkout']" is visible
+* Wait until element "css" "table#cart_info_table td.cart_description a" is clickable
+
+# Verify product has been added to cart page
+* Scroll to element "css" "table#cart_info_table td.cart_description a"
+* Verify that element "css" "table#cart_info_table td.cart_description a" contains stored text "productName"

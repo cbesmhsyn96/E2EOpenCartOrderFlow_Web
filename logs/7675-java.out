@@ -1,0 +1,1397 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 166milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 166"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J(W): The following set of substitute loggers may have been accessed
+SLF4J(W): during the initialization phase. Logging calls during this
+SLF4J(W): phase were not honored. However, subsequent logging calls to these
+SLF4J(W): loggers will work as normally expected.
+SLF4J(W): See also https://www.slf4j.org/codes.html#substituteLogger
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+{"logLevel":"debug","message":"started gRPC server on port 62165"}
+{"logLevel":"info","message":"Listening on port:62165"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Double click on element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Validate {} contains {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Verify sub category on products pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Verify that element located by {} {} contains text {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Select random sub category from {} {} on products pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Verify that stored user information is displayed correctly on Sign Up pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Click element if it exists by {} with locator {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait {} secondsvia reflected sources."}
+{"logLevel":"debug","message":"Loading Scroll to element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is visiblevia reflected sources."}
+{"logLevel":"debug","message":"Loading Type {} into element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Enter user name and email on Sign Up pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Goto website with {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Verify registered user name on Home pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading If current URL contains {} navigate to {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Fill required account information on Sign Up pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Click on element {} {} using JavaScriptvia reflected sources."}
+{"logLevel":"debug","message":"Loading Scroll to element located by {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element {} {} is presentvia reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is presentvia reflected sources."}
+{"logLevel":"debug","message":"Loading Click on element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is clickablevia reflected sources."}
+{"logLevel":"debug","message":"Loading Click a random element from elements located by {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element {} {} is displayedvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on element {} {} using JavaScript : null"}
+{"logLevel":"debug","message":"\tValidate {} contains {} : null"}
+{"logLevel":"debug","message":"\tClick element if it exists by {} with locator {} : null"}
+{"logLevel":"debug","message":"\tVerify sub category on products page : null"}
+{"logLevel":"debug","message":"\tSelect random sub category from {} {} on products page : null"}
+{"logLevel":"debug","message":"\tVerify that stored user information is displayed correctly on Sign Up page : null"}
+{"logLevel":"debug","message":"\tVerify registered user name on Home page : null"}
+{"logLevel":"debug","message":"\tScroll to element located by {} {} : null"}
+{"logLevel":"debug","message":"\tEnter user name and email on Sign Up page : null"}
+{"logLevel":"debug","message":"\tIf current URL contains {} navigate to {} : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is clickable : null"}
+{"logLevel":"debug","message":"\tWait {} seconds : null"}
+{"logLevel":"debug","message":"\tFill required account information on Sign Up page : null"}
+{"logLevel":"debug","message":"\tClick on element {} {} : null"}
+{"logLevel":"debug","message":"\tVerify that element located by {} {} contains text {} : null"}
+{"logLevel":"debug","message":"\tScroll to element {} {} : null"}
+{"logLevel":"debug","message":"\tGoto website with {} : null"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is displayed : null"}
+{"logLevel":"debug","message":"\tDouble click on element {} {} : null"}
+{"logLevel":"debug","message":"\tType {} into element {} {} : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is visible : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is present : null"}
+{"logLevel":"debug","message":"\tClick a random element from elements located by {} {} : null"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is present : null"}
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Magdalene and Email: test_lissette.konopelski@gmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Magdalene Email: test_lissette.konopelski@gmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Magdalene, Last Name: Brekke, Address: 0654 Dawne Rue, State: Delaware, City: Rogerport, Zipcode: 94694-9782, Mobile Number: 211-842-4567
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ENTER ACCOUNT INFORMATION    -----    ACCOUNT CREATED!
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Antione and Email: test_phebe.daniel@gmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Antione Email: test_phebe.daniel@gmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Antione, Last Name: Lind, Address: 411 Leuschke Greens, State: Maine, City: Lancemouth, Zipcode: 01211, Mobile Number: 742.205.5991
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Antione
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 0. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 1. Sub category name: TOPS. Total sub categories found: 3
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: TOPS , Page header: WOMEN - TOPS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: TOPS, Actual header text: WOMEN - TOPS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Emile and Email: test_anisa.sipes@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Emile Email: test_anisa.sipes@hotmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Emile, Last Name: Hoeger, Address: 8683 Herzog Streets, State: Louisiana, City: Rubenview, Zipcode: 46105, Mobile Number: (629) 103-2121
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ENTER ACCOUNT INFORMATION    -----    ACCOUNT CREATED!
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Benny and Email: test_terese.glover@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Benny Email: test_terese.glover@hotmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Benny, Last Name: Johnson, Address: 4280 Danielle Loop, State: New Mexico, City: Port Yeeton, Zipcode: 13583, Mobile Number: 440.407.1965
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Benny
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 0. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 0. Sub category name: DRESS. Total sub categories found: 3
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: DRESS , Page header: WOMEN - DRESS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: DRESS, Actual header text: WOMEN - DRESS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Doug and Email: test_enid.kilback@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Doug Email: test_enid.kilback@hotmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Doug, Last Name: Leuschke, Address: 8205 Maggio Extension, State: Indiana, City: Creminland, Zipcode: 94535-0435, Mobile Number: (573) 608-7901
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Doug
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 0. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 2. Sub category name: SAREE. Total sub categories found: 3
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: SAREE , Page header: WOMEN - SAREE PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: SAREE, Actual header text: WOMEN - SAREE PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Shannon and Email: test_jeanett.keebler@gmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Shannon Email: test_jeanett.keebler@gmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Shannon, Last Name: Torp, Address: 1286 Lionel Spurs, State: Arizona, City: North Kevenshire, Zipcode: 89472, Mobile Number: 915-481-8944
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Shannon
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 0. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 1. Sub category name: TOPS. Total sub categories found: 3
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: TOPS , Page header: WOMEN - TOPS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: TOPS, Actual header text: WOMEN - TOPS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Max and Email: test_janyce.balistreri@yahoo.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Max Email: test_janyce.balistreri@yahoo.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Max, Last Name: Heathcote, Address: 450 Migdalia Tunnel, State: Delaware, City: New Bradleyton, Zipcode: 66531-3064, Mobile Number: (527) 212-8963
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Max
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 2. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 0. Sub category name: DRESS. Total sub categories found: 2
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: DRESS , Page header: KIDS - DRESS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: DRESS, Actual header text: KIDS - DRESS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Torri and Email: test_emmanuel.davis@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Torri Email: test_emmanuel.davis@hotmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Torri, Last Name: Gleichner, Address: 945 Braun Green, State: Oregon, City: Jacobistad, Zipcode: 29071-7277, Mobile Number: 814.688.3953
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Torri
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 2. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 0. Sub category name: DRESS. Total sub categories found: 2
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: DRESS , Page header: KIDS - DRESS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: DRESS, Actual header text: KIDS - DRESS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Lynna and Email: test_tyrone.cormier@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Lynna Email: test_tyrone.cormier@hotmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Lynna, Last Name: Hammes, Address: 40686 Herzog Pike, State: Maryland, City: Aaronton, Zipcode: 15902-0079, Mobile Number: 099.525.2368
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Lynna
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 1. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 0. Sub category name: TSHIRTS. Total sub categories found: 2
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: TSHIRTS , Page header: MEN - TSHIRTS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: TSHIRTS, Actual header text: MEN - TSHIRTS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Nelson and Email: test_denisse.lynch@gmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until id element with locator password was visible.
+{"logLevel":"debug","message":"Executing 'Verify that stored user information is displayed correctly on Sign Up page' using 'class org.example.StepImplementation.validateStoredTextInElement"}
+INFO  StepImplementation - Stored user information verified on Sign Up page. Name: Nelson Email: test_denisse.lynch@gmail.com
+{"logLevel":"debug","message":"Executing 'Scroll to element located by {} {}' using 'class org.example.StepImplementation.scrollToTypeElement"}
+INFO  StepImplementation - Scrolled to element with id locator: last_name
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator form.searchform.
+{"logLevel":"debug","message":"Executing 'Fill required account information on Sign Up page' using 'class org.example.StepImplementation.fillRequiredAccountInformation"}
+INFO  StepImplementation - Scrolled to id element with locator state.
+INFO  StepImplementation - Scrolled to id element with locator zipcode.
+INFO  StepImplementation - Account information filled with First Name: Nelson, Last Name: Leannon, Address: 1641 Moore Stream, State: Illinois, City: Celestetown, Zipcode: 82888, Mobile Number: 126-149-2282
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator input[value='create_account']+button.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator h2[class='title text-center'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator section#form p:nth-of-type(1).
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - ACCOUNT CREATED!    -----    ACCOUNT CREATED!
+INFO  StepImplementation - css element with locator h2[class='title text-center']>b contains text ACCOUNT CREATED!
+{"logLevel":"debug","message":"Executing 'Verify that element located by {} {} contains text {}' using 'class org.example.StepImplementation.validateTextInElement"}
+INFO  StepImplementation - Congratulations! Your new account has been successfully created!    -----    Congratulations! Your new account
+INFO  StepImplementation - css element with locator section#form p:nth-of-type(1) contains text Congratulations! Your new account
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator div.pull-right>a.
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'If current URL contains {} navigate to {}' using 'class org.example.StepImplementation.ifCurrentUrlXGoToYUrl"}
+INFO  StepImplementation - Current URL contains google_vignette. Navigating to https://automationexercise.com/. Current URL = https://automationexercise.com/account_created#google_vignette
+{"logLevel":"debug","message":"Executing 'Click element if it exists by {} with locator {}' using 'class org.example.StepImplementation.ifElementExistClickToElement"}
+INFO  SeleniumHelper - Optional element not found. Continuing test. Locator = By.cssSelector: #dismiss-button
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/logout'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator li>a[href='/delete_account'].
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator ul[class='nav navbar-nav']>li:nth-child(10) b.
+{"logLevel":"debug","message":"Executing 'Verify registered user name on Home page' using 'class org.example.StepImplementation.verifyNameHomePage"}
+INFO  StepImplementation - Verified registered user name on Home page. Username is = Nelson
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was visible.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/products'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='left-sidebar']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div[class='features_items']>h2 was visible.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is visible' using 'class org.example.StepImplementation.waitElementUntilVisible"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] h4>a was visible.
+{"logLevel":"debug","message":"Executing 'Scroll to element {} {}' using 'class org.example.StepImplementation.scrollToElement"}
+INFO  StepImplementation - Scrolled to css element with locator div#accordian>div[class='panel panel-default'] h4>a.
+{"logLevel":"debug","message":"Executing 'Click a random element from elements located by {} {}' using 'class org.example.StepImplementation.clickRandomElementAList"}
+INFO  StepImplementation - Random element clicked from css with locator div#accordian>div[class='panel panel-default'] h4>a at index 2. Total elements found: 3
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is clickable' using 'class org.example.StepImplementation.waitElementUntilClickable"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+{"logLevel":"debug","message":"Executing 'Select random sub category from {} {} on products page' using 'class org.example.StepImplementation.selectRandomSubCategory"}
+INFO  StepImplementation - Waited until css element with locator div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a was clickable.
+INFO  StepImplementation - Random sub category selected from css locator: div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a. Selected index: 1. Sub category name: TOPS & SHIRTS. Total sub categories found: 2
+{"logLevel":"debug","message":"Executing 'Verify sub category on products page' using 'class org.example.StepImplementation.verifySubCategory"}
+INFO  StepImplementation - Waited until css element with locator div.features_items>h2 was visible.
+INFO  StepImplementation - Verifying sub category. Expected: TOPS & SHIRTS , Page header: KIDS - TOPS & SHIRTS PRODUCTS
+INFO  StepImplementation - Verified products page sub category header. Expected sub category: TOPS & SHIRTS, Actual header text: KIDS - TOPS & SHIRTS PRODUCTS
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

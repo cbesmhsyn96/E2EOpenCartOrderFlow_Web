@@ -1,0 +1,314 @@
+src/main/java/helper/SeleniumHelper.java:4: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src/main/java/helper/SeleniumHelper.java:5: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/main/java/helper/SeleniumHelper.java:6: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.FluentWait;
+                                     ^
+src/main/java/helper/SeleniumHelper.java:7: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Wait;
+                                     ^
+src/main/java/helper/SeleniumHelper.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/main/java/helper/SeleniumHelper.java:14: error: cannot find symbol
+    private WebDriver driver;
+            ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:15: error: cannot find symbol
+    private FluentWait<WebDriver> waitVal;
+            ^
+  symbol:   class FluentWait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:15: error: cannot find symbol
+    private FluentWait<WebDriver> waitVal;
+                       ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:16: error: cannot find symbol
+    private WebElement element;
+            ^
+  symbol:   class WebElement
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:17: error: cannot find symbol
+    private JavascriptExecutor executor;
+            ^
+  symbol:   class JavascriptExecutor
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:18: error: cannot find symbol
+    private Actions action;
+            ^
+  symbol:   class Actions
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:20: error: cannot find symbol
+    public SeleniumHelper(WebDriver driver) {
+                          ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:24: error: cannot find symbol
+    public By getByWithLocatorString(String type, String locator){
+           ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:35: error: cannot find symbol
+    private Wait<WebDriver> getWait(){
+            ^
+  symbol:   class Wait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:35: error: cannot find symbol
+    private Wait<WebDriver> getWait(){
+                 ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:44: error: cannot find symbol
+    public WebElement elementWaitedUntilPresence(By locator){
+                                                 ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:44: error: cannot find symbol
+    public WebElement elementWaitedUntilPresence(By locator){
+           ^
+  symbol:   class WebElement
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:49: error: cannot find symbol
+    public WebElement elementWaitedUntilVisible(By locator){
+                                                ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:49: error: cannot find symbol
+    public WebElement elementWaitedUntilVisible(By locator){
+           ^
+  symbol:   class WebElement
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:54: error: cannot find symbol
+    public WebElement elementWaitedUntilClickable(By locator){
+                                                  ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:54: error: cannot find symbol
+    public WebElement elementWaitedUntilClickable(By locator){
+           ^
+  symbol:   class WebElement
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:59: error: cannot find symbol
+    public void clickElement(By locator){
+                             ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:64: error: cannot find symbol
+    public void clickElementWithJs(By locator){
+                                   ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:70: error: cannot find symbol
+    public void scrollToElement(By locator){
+                                ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:75: error: cannot find symbol
+    public void sendKeyToElement(String text, By locator){
+                                              ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:80: error: cannot find symbol
+    public void doubleClickToElement(By locator){
+                                     ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:86: error: cannot find symbol
+    public boolean checkPresenceOfElement(By locator){
+                                          ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:94: error: cannot find symbol
+    public boolean checkdDisplayStateElement(By locator){
+                                             ^
+  symbol:   class By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:3: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/test/java/org/example/BaseTest.java:5: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.AfterEach;
+                            ^
+src/test/java/org/example/BaseTest.java:6: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+src/test/java/org/example/BaseTest.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/org/example/BaseTest.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/org/example/BaseTest.java:9: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/org/example/BaseTest.java:12: error: cannot find symbol
+    protected static WebDriver driver;
+                     ^
+  symbol:   class WebDriver
+  location: class BaseTest
+src/test/java/org/example/BaseTest.java:13: error: cannot find symbol
+    protected static WebDriverWait wait;
+                     ^
+  symbol:   class WebDriverWait
+  location: class BaseTest
+src/test/java/org/example/StepImplementation.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src/test/java/org/example/StepImplementation.java:6: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src/test/java/org/example/StepImplementation.java:7: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Assertions;
+                            ^
+src/test/java/org/example/StepImplementation.java:8: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/org/example/StepImplementation.java:9: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/org/example/StepImplementation.java:15: error: cannot find symbol
+    private By by;
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src/test/java/org/example/StepImplementation.java:16: error: cannot find symbol
+    private static final Logger logger =
+                         ^
+  symbol:   class Logger
+  location: class StepImplementation
+src/main/java/helper/SeleniumHelper.java:26: error: cannot find symbol
+            case "id": return By.id(locator);
+                              ^
+  symbol:   variable By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:27: error: cannot find symbol
+            case "css": return By.cssSelector(locator);
+                               ^
+  symbol:   variable By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:28: error: cannot find symbol
+            case "xpath" : return By.xpath(locator);
+                                  ^
+  symbol:   variable By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:29: error: cannot find symbol
+            case "name" : return By.name(locator);
+                                 ^
+  symbol:   variable By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:30: error: cannot find symbol
+            case "class" : return By.className(locator);
+                                  ^
+  symbol:   variable By
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:36: error: cannot find symbol
+        Wait<WebDriver> wait
+        ^
+  symbol:   class Wait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:36: error: cannot find symbol
+        Wait<WebDriver> wait
+             ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:40: error: cannot find symbol
+                .ignoring(TimeoutException.class);
+                          ^
+  symbol:   class TimeoutException
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:37: error: cannot find symbol
+                = new FluentWait<>(driver)
+                      ^
+  symbol:   class FluentWait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:45: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                   ^
+  symbol:   class FluentWait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:45: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                              ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:46: error: cannot find symbol
+        return waitVal.until(ExpectedConditions.presenceOfElementLocated(locator));
+                             ^
+  symbol:   variable ExpectedConditions
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:50: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                   ^
+  symbol:   class FluentWait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:50: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                              ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:51: error: cannot find symbol
+        return waitVal.until(ExpectedConditions.visibilityOfElementLocated(locator));
+                             ^
+  symbol:   variable ExpectedConditions
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:55: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                   ^
+  symbol:   class FluentWait
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:55: error: cannot find symbol
+        waitVal = (FluentWait<WebDriver>) getWait();
+                              ^
+  symbol:   class WebDriver
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:56: error: cannot find symbol
+        return waitVal.until(ExpectedConditions.elementToBeClickable(locator));
+                             ^
+  symbol:   variable ExpectedConditions
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:65: error: cannot find symbol
+        executor = (JavascriptExecutor) driver;
+                    ^
+  symbol:   class JavascriptExecutor
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:71: error: cannot find symbol
+        executor = (JavascriptExecutor) driver;
+                    ^
+  symbol:   class JavascriptExecutor
+  location: class SeleniumHelper
+src/main/java/helper/SeleniumHelper.java:81: error: cannot find symbol
+        action = new Actions(driver);
+                     ^
+  symbol:   class Actions
+  location: class SeleniumHelper
+src/test/java/org/example/StepImplementation.java:17: error: cannot find symbol
+            LogManager.getLogger(StepImplementation.class);
+            ^
+  symbol:   variable LogManager
+  location: class StepImplementation
+src/test/java/org/example/StepImplementation.java:21: error: cannot find symbol
+        driver = new ChromeDriver();
+                     ^
+  symbol:   class ChromeDriver
+  location: class StepImplementation
+src/test/java/org/example/StepImplementation.java:30: error: cannot find symbol
+        Assertions.assertEquals(url,text);
+        ^
+  symbol:   variable Assertions
+  location: class StepImplementation
+src/test/java/org/example/StepImplementation.java:94: error: cannot find symbol
+        Assertions.assertTrue(state);
+        ^
+  symbol:   variable Assertions
+  location: class StepImplementation
+src/test/java/org/example/StepImplementation.java:102: error: cannot find symbol
+        Assertions.assertTrue(state);
+        ^
+  symbol:   variable Assertions
+  location: class StepImplementation
+69 errors

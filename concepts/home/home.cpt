@@ -1,0 +1,24 @@
+Created by huseyinakcan on 3.03.2026
+
+This is a concept file with following syntax for each concept.
+# Wait for home page navbar elements to visible
+*  Wait until element "css" "li>a[href='/']" is visible
+*  Wait until element "css" "li>a[href='/products']" is visible
+*  Wait until element "css" "li>a[href='/view_cart']" is visible
+*  Wait until element "css" "li>a[href='/test_cases']" is visible
+*  Wait until element "css" "li>a[href='/api_list']" is visible
+*  Wait until element "xpath" "//li/a[contains(@href,'AutomationExercise')]" is visible
+*  Wait until element "css" "li>a[href='/contact_us']" is visible
+
+# Verify that the home page is displayed
+* Check if element "css" "li>a[href='/login']" is displayed
+* Check if element "css" "li>a[href='/']" is displayed
+* Check if element "css" "li>a[href='/products']" is displayed
+* Check if element "css" "li>a[href='/view_cart']" is displayed
+* Check if element "css" "li>a[href='/test_cases']" is displayed
+* Check if element "css" "li>a[href='/api_list']" is displayed
+* Check if element "xpath" "//li/a[contains(@href,'AutomationExercise')]" is displayed
+* Check if element "css" "li>a[href='/contact_us']" is displayed
+
+# Click to Products on home page
+* Click on element "css" "li>a[href='/products']"

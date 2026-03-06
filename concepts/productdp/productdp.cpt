@@ -1,0 +1,24 @@
+
+# Wait for product detail page elements to visible
+* Wait until element "css" "div.product-information>h2" is visible
+* Wait until element "id" "quantity" is visible
+* Wait until element "css" "div.product-information button" is visible
+* Store text of element located by "css" "div.product-information>h2" with "productName"
+
+# Verify product detail page
+* Verify current url contains "storedAttributeValue"
+
+# Enter random product quantity
+* Scroll to element "id" "quantity"
+* Type random number in 1-"5" range into element "id" "quantity"
+
+# Click to Add To Cart button
+* Click on element "css" "div.product-information button"
+
+# Verify product has been added to cart popup
+* Wait until element "css" "#cartModal div.modal-body>p:nth-child(1)" is visible
+* Wait until element "css" "#cartModal div.modal-body>p:nth-child(2) a" is clickable
+* Verify that element located by "css" "#cartModal div.modal-body>p:nth-child(1)" contains text "Your product has been added to cart."
+
+# Direct to cart
+* Click on element "css" "#cartModal div.modal-body>p:nth-child(2) a"

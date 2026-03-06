@@ -1,0 +1,25 @@
+Created by huseyinakcan on 6.03.2026
+
+This is a concept file with following syntax for each concept.
+# Wait for products page elements to visible
+* Wait until element "css" "div[class='left-sidebar']>h2" is visible
+* Wait until element "css" "div[class='features_items']>h2" is visible
+* Wait until element "css" "div#accordian>div[class='panel panel-default'] h4>a" is visible
+
+# Select random category on products page
+* Scroll to element "css" "div#accordian>div[class='panel panel-default'] h4>a"
+* Wait until element "css" "div#accordian>div[class='panel panel-default'] h4>a" is clickable
+* Click a random element from elements located by "css" "div#accordian>div[class='panel panel-default'] h4>a"
+
+# Select randon sub category on product page
+* Wait until element "css" "div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a" is clickable
+* Select random sub category from "css" "div#accordian>div[class='panel panel-default'] div[class='panel-collapse in'] div[class='panel-body']>ul>li>a" on products page
+
+# Verify selected sub category on products page
+* Verify sub category on products page
+
+# Go random product detail page
+* Scroll to element "css" "div.features_items div[class='col-sm-4']  div.choose a"
+* Wait until element "css" "div.features_items div[class='col-sm-4']  div.choose a" is clickable
+* Click a random element from elements located by "css" "div.features_items div[class='col-sm-4']  div.choose a" and store its "href" attribute value
+

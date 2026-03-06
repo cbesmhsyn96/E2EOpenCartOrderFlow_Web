@@ -1,0 +1,156 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 192milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 192"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J(W): The following set of substitute loggers may have been accessed
+SLF4J(W): during the initialization phase. Logging calls during this
+SLF4J(W): phase were not honored. However, subsequent logging calls to these
+SLF4J(W): loggers will work as normally expected.
+SLF4J(W): See also https://www.slf4j.org/codes.html#substituteLogger
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J(W): io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+{"logLevel":"debug","message":"started gRPC server on port 53116"}
+{"logLevel":"info","message":"Listening on port:53116"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Double click on element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Validate {} contains {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait {} secondsvia reflected sources."}
+{"logLevel":"debug","message":"Loading Scroll to element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is visiblevia reflected sources."}
+{"logLevel":"debug","message":"Loading Type {} into element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Enter user name and email on Sign Up pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Goto website with {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Click on element {} {} using JavaScriptvia reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element {} {} is presentvia reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is presentvia reflected sources."}
+{"logLevel":"debug","message":"Loading Click on element {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Wait until element {} {} is clickablevia reflected sources."}
+{"logLevel":"debug","message":"Loading Click a random element from elements located by {} {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element {} {} is displayedvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on element {} {} : null"}
+{"logLevel":"debug","message":"\tClick on element {} {} using JavaScript : null"}
+{"logLevel":"debug","message":"\tValidate {} contains {} : null"}
+{"logLevel":"debug","message":"\tScroll to element {} {} : null"}
+{"logLevel":"debug","message":"\tGoto website with {} : null"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is displayed : null"}
+{"logLevel":"debug","message":"\tEnter user name and email on Sign Up page : null"}
+{"logLevel":"debug","message":"\tDouble click on element {} {} : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is clickable : null"}
+{"logLevel":"debug","message":"\tType {} into element {} {} : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is visible : null"}
+{"logLevel":"debug","message":"\tWait until element {} {} is present : null"}
+{"logLevel":"debug","message":"\tClick a random element from elements located by {} {} : null"}
+{"logLevel":"debug","message":"\tCheck if element {} {} is present : null"}
+{"logLevel":"debug","message":"\tWait {} seconds : null"}
+{"logLevel":"debug","message":"Executing 'Goto website with {}' using 'class org.example.StepImplementation.goToUrl"}
+INFO  StepImplementation - 
+Navigated to the website: https://automationexercise.com/
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/login'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was present.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/login'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/products'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/view_cart'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/test_cases'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/api_list'] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - xpath element with locator //li/a[contains(@href,'AutomationExercise')] is displayed.
+{"logLevel":"debug","message":"Executing 'Check if element {} {} is displayed' using 'class org.example.StepImplementation.isElementDisplayed"}
+INFO  StepImplementation - css element with locator li>a[href='/contact_us'] is displayed.
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator li>a[href='/login'].
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/login'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/products'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/view_cart'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/test_cases'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/api_list'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until xpath element with locator //li/a[contains(@href,'AutomationExercise')] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator li>a[href='/contact_us'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='signup-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Name'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>input[placeholder='Email Address'] was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator form[action='/signup']>button was present.
+{"logLevel":"debug","message":"Executing 'Enter user name and email on Sign Up page' using 'class org.example.StepImplementation.fillFirstSignupForm"}
+INFO  StepImplementation - Sign Up form filled with Name: Vito and Email: test_alysa.jaskolski@hotmail.com
+{"logLevel":"debug","message":"Executing 'Click on element {} {}' using 'class org.example.StepImplementation.clickElementWithLocatorType"}
+INFO  StepImplementation - Clicked on css element with locator form[action='/signup']>button.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div[class='login-form']>h2 was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until css element with locator div.clearfix div.radio-inline label was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator name was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator email was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator password was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator first_name was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator last_name was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator state was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator city was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator zipcode was present.
+{"logLevel":"debug","message":"Executing 'Wait until element {} {} is present' using 'class org.example.StepImplementation.waitElementUntilPresence"}
+INFO  StepImplementation - Waited until id element with locator mobile_number was present.
+INFO  BaseTest - Closing the browser.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
